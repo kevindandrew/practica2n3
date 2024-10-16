@@ -4,12 +4,14 @@ export default function Page() {
   return (
     <div className="flex flex-col items-center min-h-screen bg-[#f6f3fc] px-4">
       <h1 className="mt-10 mb-6 text-3xl font-semibold text-gray-700">Contact Us</h1>
-      
+
       <div className="flex flex-col lg:flex-row w-full max-w-6xl items-start justify-between lg:px-16 gap-12">
         
+
         <div className="w-full lg:w-1/2 bg-opacity-30 backdrop-blur-lg p-6 rounded-lg shadow-lg flex flex-col gap-6 transition duration-300 ease-in-out hover:bg-white hover:bg-opacity-50">
           <form className="flex flex-col gap-4">
             
+  
             <div className="relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +31,8 @@ export default function Page() {
                 className="w-full p-3 pl-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
-            
+
+
             <div className="relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +49,8 @@ export default function Page() {
                 className="w-full p-3 pl-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
-            
+
+
             <div className="relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,14 +73,21 @@ export default function Page() {
           </form>
         </div>
         
+       
         <div className="w-full lg:w-1/2 flex flex-col gap-8">
-          {[
-            { title: 'Phone', text: '+880124332334', icon: '<SVG path>' },
-            { title: 'Email', text: 'something@gmail.com', icon: '<SVG path>' },
-            { title: 'Location', text: '43/A Sponner Street, St laurance, Virginia, Texas', icon: '<SVG path>' }
+          {[ 
+            { title: 'Phone', text: '+880124332334' },
+            { title: 'Email', text: 'something@gmail.com' },
+            { title: 'Location', text: '43/A Sponner Street, St Laurence, Virginia, Texas' }
           ].map((contact, index) => (
             <div key={index} className="flex gap-4">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-blue-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-6 h-6 text-blue-700"
+              >
+
               </svg>
               <div>
                 <h2 className="font-semibold">{contact.title}</h2>
