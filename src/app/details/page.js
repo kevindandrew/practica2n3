@@ -29,7 +29,7 @@ export default function Page() {
         <div className='flex flex-col items-center justify-center w-4/12'>
           <h1 className='font-bold text-2xl mb-5'>Devoted to Defining the Cutting Edge</h1>
           <p className='text-xs text-center'>
-            "This new creation is cutting-edge technology,&quot; says the researcher, &quot;whose study originates from a business at the forefront of space science.&quot;
+          &quot;This new creation is cutting-edge technology,&quot; says the researcher, &quot;whose study originates from a business at the forefront of space science.&quot;
             <br /><br /><br />
             Klean is a free Bootstrap 5 template for multipurpose landing pages. This design is a perfect choice, carefully curated by <strong>ThemeWagon</strong>.
           </p>
