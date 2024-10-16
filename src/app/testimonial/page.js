@@ -32,7 +32,7 @@ export default function Page() {
             <p className="text-gray-500">
               I just wanted to drop you a little email to say thank you for all your hard work.
               <br />
-              I'm delighted I chose you as my partner. Your websites are quite simple to edit.
+              Im delighted I chose you as my partner. Your websites are quite simple to edit.
               <br />
               and maintain, which is fantastic.
             </p>

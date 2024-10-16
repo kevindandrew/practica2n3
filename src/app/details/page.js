@@ -14,7 +14,7 @@ export default function Page() {
         <div className='flex flex-col items-center justify-center w-4/12'>
           <h1 className='font-bold text-2xl mb-5'>A Creative Team That Builds Stunning UI/UX</h1>
           <p className='text-xs text-center'>
-            Today, I’d like to show you some incredible sign-up screen app UI ideas and concepts that offer a modern user experience.<br />
+            Today, Id like to show you some incredible sign-up screen app UI ideas and concepts that offer a modern user experience.<br />
             The most stunning, cutting-edge UI/UX.
             <br /><br /><br />
             Klean is a free Bootstrap 5 template for multipurpose landing pages. This design is a perfect choice, carefully curated by <strong>ThemeWagon</strong>.

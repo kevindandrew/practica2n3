@@ -6,7 +6,7 @@ export default function Page() {
             <div className='flex flex-col items-center justify-center'>
                 <h1 className='font-semibold text-3xl text-center mb-5'>Our Projects</h1>
                 <p className='px-20 mx-60 text-center text-sm'>
-                    A project is a single or team activity, combining research and design with the best effort. Here are some of our team's projects.
+                    A project is a single or team activity, combining research and design with the best effort. Here are some of our teams projects.
                 </p>
             </div>
             <div className="flex gap-5 mt-5 bg-white p-5">
