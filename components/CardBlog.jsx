@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 export default function CardBlog({ title, parra, img, name, date, mins, like, view }) {
     return (
         <>
-            <figure className="flex flex-col p-8 bg-white/30 border border-gray-200 rounded-t-lg backdrop-blur-md md:rounded-t-none md:rounded-tl-lg md:border-r ">
+            <figure className="flex flex-col p-8 bg-white/30 border border-gray-200 rounded-t-lg backdrop-blur-md md:rounded-t-none md:rounded-tl-lg md:border-r">
                 <blockquote className="max-w-80 mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                     <h3 className="text-lg font-semibold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
                         {title}
@@ -13,13 +14,15 @@ export default function CardBlog({ title, parra, img, name, date, mins, like, vi
                     </p>
                 </blockquote>
                 <figcaption className="flex">
-                    <img
+                    <Image
                         className="rounded-full w-9 h-9"
                         src={img}
                         alt="profile picture"
+                        width={36} // Ajusta el tamaño según tus necesidades
+                        height={36} // Ajusta el tamaño según tus necesidades
                     />
                     <div className="space-y-0.5 font-medium text-left rtl:text-right ml-3">
-                        <div className="text-black ">{name}</div>
+                        <div className="text-black">{name}</div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">
                             {date} - {mins} mins read
                         </div>
@@ -64,7 +67,5 @@ export default function CardBlog({ title, parra, img, name, date, mins, like, vi
                 </figcaption>
             </figure>
         </>
-
-
-    )
+    );
 }
